@@ -1,20 +1,20 @@
 class Hive < Formula
   desc "AI desktop platform — learns, protects, and works while you sleep"
   homepage "https://hivecode.app"
-  version "0.3.4"
+  version "0.3.5"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/PatSul/Hive/releases/download/v0.3.4/hive-macos-arm64.tar.gz"
-      sha256 "29d93d7593172aed8ae60ac74f89e3b98adb1e5ced6620631cb20545edbf634c"
+      url "https://github.com/PatSul/Hive/releases/download/v0.3.5/hive-macos-arm64.tar.gz"
+      sha256 "ec9e9bff8753e0b97dc33b3b975d09370979f59f12c87e893c8d151352735a21"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/PatSul/Hive/releases/download/v0.3.4/hive-linux-x64.tar.gz"
-      sha256 "9217d1ae53a1d0f80272e980e872d4224ef226d045e8b8bfc0b51fd59d0f3b9a"
+      url "https://github.com/PatSul/Hive/releases/download/v0.3.5/hive-linux-x64.tar.gz"
+      sha256 "aa9b556ec3110bc1fdf6eb584e2ad524bf18a92ce469d0fded397ec8326fc81a"
     end
   end
 
